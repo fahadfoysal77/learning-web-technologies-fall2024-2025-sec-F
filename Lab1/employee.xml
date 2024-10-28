@@ -1,0 +1,52 @@
+<employees>
+
+  <employee id="1">
+  <name>
+     <firstname> Jhon </firstname>
+     <lastname> Doe </lastname>
+  </name>
+     <address>
+     <house> 38 </house>
+     <road> 3 </road>
+     <area> Banani </area>
+     <city> Dhaka </city>
+     <address>
+     <department> Sales </department>
+     <salary> 20000 </salary>
+
+
+  </employee>
+
+  <employee id="2">
+  <name>
+     <firstname> Mark </firstname>
+     <lastname> Zukerberg </lastname>
+  </name>
+     <address>
+     <flat> A/1 </flat>
+     <house> 20 </house>
+     <road> 18 </road>
+     <area> mirpur </area>
+     <city> Dhaka </city>
+     <address>
+     <department> Accounts </department>
+     <salary> 12000 </salary>
+
+  </employee>
+
+    <employee id="3">
+    <name>
+     <firstname> Alo </firstname>
+     <lastname> Voski </lastname>
+    </name>
+     <address>
+     <house> 38 </house>
+     <road> 3 </road>
+     <area> Motjheel </area>
+     <address>
+     <department> Human Resource </department>
+     <salary> 30000 </salary>
+
+  </employee>
+
+</employees>
