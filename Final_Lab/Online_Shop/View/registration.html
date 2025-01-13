@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Signup</title>
+    <link rel="stylesheet" type="text/css" href="../assets/css/registration.css">
+    <script>
+        function validateForm() {
+            // Get the form fields
+            const name = document.forms["signupForm"]["name"].value;
+            const phone = document.forms["signupForm"]["phone"].value;
+            const username = document.forms["signupForm"]["username"].value;
+            const password = document.forms["signupForm"]["password"].value;
+
+            // Check if any field is empty
+            if (name === "" || phone === "" || username === "" || password === "") {
+                alert("All fields must be filled out");
+                return false; // Prevent form submission
+            }
+        }
+    </script>
+</head>
+<body>
+<form name="signupForm" method="post" action="../Controller/registration.php" onsubmit="return validateForm()">
+    <h2>Signup</h2>
+    Name: <input type="text" name="name" value="" /> <br><br>
+    Contact Number: <input type="text" name="phone" value="" /> <br><br>
+    Username: <input type="text" name="username" value="" /> <br><br>
+    Password: <input type="password" name="password" value="" /> <br><br>
+    <input type="submit" name="submit" value="Submit" />
+</form>
+</body>
+</html>

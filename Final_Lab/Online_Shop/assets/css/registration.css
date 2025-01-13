@@ -1,0 +1,96 @@
+/* Apply global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6e6fa; /* Updated background color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+/* Style the form container */
+form {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+/* Center the heading */
+h1 {
+    text-align: center;
+    color: #333333;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+/* Add a horizontal line style */
+hr {
+    border: none;
+    height: 1px;
+    background-color: #cccccc;
+    margin-bottom: 20px;
+}
+
+/* Style table cells */
+td {
+    padding: 10px 5px;
+    font-size: 14px;
+    color: #555555;
+}
+
+/* Input fields styling */
+input[type="text"], input[type="password"], input[type="email"], input[type="date"], select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Style for radio buttons */
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Buttons styling */
+button, input[type="submit"] {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Align buttons */
+table:last-of-type td {
+    text-align: center;
+    padding-top: 15px;
+}
+
+/* Add spacing to form fields */
+table tr td:first-child {
+    text-align: right;
+}
+
+/* Responsive adjustments */
+@media (max-width: 500px) {
+    form {
+        width: 90%;
+    }
+    h1 {
+        font-size: 18px;
+    }
+}
